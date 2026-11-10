@@ -30,7 +30,7 @@ CCRotaryEncoder enc {
 // Instantiate a CCButton object
 CCButton pushswitches[] {
   // Left Button used internal by A2
-  { PIN_PSW2, {MIDI_CC::General_Purpose_Controller_3, CHANNEL_1} },  // upper left middle
+  { PIN_PSW2, {MIDI_CC::General_Purpose_Controller_3, CHANNEL_1} },  // left middle button
   { PIN_PSW3, {MIDI_CC::General_Purpose_Controller_4, CHANNEL_1} },  // right middel button
   { PIN_PSW4, {MIDI_CC::General_Purpose_Controller_5, CHANNEL_1} },  // right button
 };
